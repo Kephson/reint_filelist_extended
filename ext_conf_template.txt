@@ -1,0 +1,11 @@
+# cat=basic/enable/1; type=boolean; label=Enable extension:Enable or disable the configuration of filelist
+enableModule = 1
+
+# cat=basic/enable/2; type=integer; label=Number of files:Number of files shown in filelist, default is 40
+numOfShownFiles = 40
+
+# cat=basic/enable/3; type=boolean; label=Thumbs:Show thumbnails in filelist by default
+showThumbs = 0
+
+# cat=basic/enable/4; type=integer; label=Length of file title:Define the length of shown file titles, default is 30 characters (defined in user settings "titleLen")
+lengthOfFileTitle = 30
