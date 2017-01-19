@@ -17,7 +17,7 @@ Easier filelist module configuration
 		reint_filelist_extended
 
 	:Version:
-		0.5.1
+		1.2.0
 
 	:Language:
 		en
@@ -29,7 +29,7 @@ Easier filelist module configuration
 		filelist,module,backend,configuration
 
 	:Copyright:
-		2015
+		2017
 
 	:Author:
 		Ephraim Härer

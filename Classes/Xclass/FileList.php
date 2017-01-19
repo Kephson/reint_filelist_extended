@@ -2,13 +2,11 @@
 
 namespace RENOLIT\ReintFilelistExtended\Xclass;
 
-use TYPO3\CMS\Filelist\Controller\FileListController;
-
 /* * *************************************************************
  *
  *  Copyright notice
  *
- *  (c) 2015 Ephraim Härer <ephraim.haerer@renolit.com>, RENOLIT SE
+ *  (c) 2017 Ephraim Härer <ephraim.haerer@renolit.com>, RENOLIT SE
  *
  *  All rights reserved
  *
@@ -28,15 +26,18 @@ use TYPO3\CMS\Filelist\Controller\FileListController;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  * ************************************************************* */
+use TYPO3\CMS\Filelist\Controller\FileListController;
 
-class FileList extends \TYPO3\CMS\Filelist\FileList {
+class FileList extends \TYPO3\CMS\Filelist\FileList
+{
 
 	/**
 	 * Construct
 	 *
 	 * @param FileListController $fileListController
 	 */
-	public function __construct(FileListController $fileListController) {
+	public function __construct(FileListController $fileListController = NULL)
+	{
 		parent::__construct($fileListController);
 
 		/*
@@ -60,5 +61,4 @@ class FileList extends \TYPO3\CMS\Filelist\FileList {
 			}
 		}
 	}
-
 }
