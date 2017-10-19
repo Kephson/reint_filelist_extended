@@ -1,0 +1,18 @@
+{
+	"name": "renolit/reint-filelist-extended",
+	"type": "typo3-cms-extension",
+	"version": "1.2.1",
+	"description": "Extension makes the filelist in backend easier configurable.",
+	"homepage": "https://www.renolit.com",
+	"license": "GPL-2.0+",
+	"keywords": ["TYPO3 CMS"],
+	"require": {
+		"typo3/cms-core": "^7.6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"RENOLIT\\ReintFilelistExtended\\": "Classes"
+		}
+	}
+}
+

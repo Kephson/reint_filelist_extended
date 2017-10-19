@@ -15,6 +15,8 @@ Target group: **Administrators**
 
 Install the extension in extension manager and user the configuration in extension manager to do your custom settings for the filelist.
 
+For Composer-installations: Install via Composer with **composer require renolit/reint-filelist-extended**
+
 There are the following options to configure:
 
 - Enable or disable extension (enabled by default)

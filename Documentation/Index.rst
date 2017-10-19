@@ -17,7 +17,7 @@ Easier filelist module configuration
 		reint_filelist_extended
 
 	:Version:
-		1.2.0
+		release
 
 	:Language:
 		en

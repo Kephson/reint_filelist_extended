@@ -15,6 +15,14 @@ Read changelog of extension here.
 
 -----------------------
 
+- **19.10.2017** -> 1.2.1
+
+  - updated module for TYPO3 7.6
+  - added composer.json file
+  - dropped support for TYPO3 6.2
+
+-----------------------
+
 - **09.01.2017** -> 1.2.0
 
   - updated module for TYPO3 7.6

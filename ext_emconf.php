@@ -19,14 +19,19 @@ $EM_CONF[$_EXTKEY] = array(
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '1.2.0',
+	'version' => '1.2.1',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.2.10-7.99.99',
+			'typo3' => '7.6.0-7.99.99',
 		),
 		'conflicts' => array(
 		),
 		'suggests' => array(
+		),
+	),
+	'autoload' => array(
+		'psr-4' => array(
+			'RENOLIT\\ReintFilelistExtended\\' => 'Classes'
 		),
 	),
 );
